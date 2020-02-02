@@ -1,47 +1,21 @@
-* {
-  box-sizing: border-box;
+*{
+    box-sizing: border-box;
+    text-align: center;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
+.question {
+    border: 5px solid darkgray;
+    padding: 10px;
+    margin-left:50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
 }
 
-button, input[type="text"] {
-  padding: 5px;
+.list {
+    text-align: left;
 }
 
-button:hover {
-  cursor: pointer;
-}
+p.position-score>div{
+    display: flex;
 
-#shopping-list-item {
-  width: 250px;
-}
-
-.container {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.shopping-list {
-  list-style: none;
-  padding-left: 0;
-}
-
-.shopping-list > li {
-  margin-bottom: 20px;
-  border: 1px solid grey;
-  padding: 20px;
-}
-
-.shopping-item {
-  display: block;
-  color: grey;
-  font-style: italic;
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-
-.shopping-item__checked {
-  text-decoration: line-through;
 }
